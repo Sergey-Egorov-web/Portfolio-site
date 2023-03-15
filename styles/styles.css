@@ -1,0 +1,144 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000;
+  font-family: IBM Plex Mono, Courier, monospace;
+  font-style: normal;
+}
+/* main {
+  width: 100%;
+  min-width: 1400px;
+
+  margin: 0 auto;
+} */
+.about-me {
+  width: 100%;
+  min-width: 1400px;
+  height: 765px;
+  margin: 0 auto;
+  background: url(../recources/My\ photo.png);
+}
+.nav-section {
+  width: 1200px;
+  height: 55px;
+  padding-top: 17px;
+  margin: 0 auto 0 auto;
+}
+.nav-container {
+  display: inline;
+  margin: 0 auto;
+}
+.logo {
+  display: inline-block;
+  width: 130px;
+  height: 39px;
+  margin-right: 520px;
+  background-color: #000;
+  border-radius: 100px;
+}
+
+.text-logo {
+  width: 109px;
+  height: 55px;
+  margin-top: -9px;
+  margin-left: 9px;
+  font-weight: 700;
+  font-size: 42.4138px;
+  line-height: 55px;
+  text-align: center;
+  vertical-align: auto;
+  letter-spacing: -0.11em;
+  text-transform: uppercase;
+  color: #1bff07;
+}
+.nav {
+  display: inline;
+  margin-top: 6px;
+  width: 420px;
+  height: 23px;
+  vertical-align: baseline;
+}
+.nav-link {
+  /* width: 90px;
+  height: 25px; */
+  margin-right: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.nav-link:nth-last-child(1) {
+  margin-right: 0px;
+}
+.nav-link:hover {
+  color: #1bff07;
+  /* opacity: 0.5; */
+}
+.text-about-me {
+  width: 1400px;
+  margin: 0 auto;
+}
+.introduction {
+  width: 430px;
+  height: 103px;
+  margin-top: 281px;
+  margin-left: 125px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+h1 {
+  width: 919px;
+  height: 205px;
+  margin-top: 27px;
+  margin-left: 119px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 70px;
+  /* or 88% */
+  letter-spacing: -0.03em;
+  color: #1bff07;
+}
+main {
+  width: 1150px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+h2 {
+  margin-top: 150px;
+  margin-bottom: 40px;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.project {
+  width: 1150px;
+  height: 550px;
+  border-radius: 30px;
+  background-image: url(../recources/Realhome.png), url(../recources/Glass.png),
+    url(../recources/Fesiyen.png);
+}
+
+h3 {
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  padding-top: 410px;
+  padding-left: 50px;
+  margin-bottom: 5px;
+}
+.text-project {
+  padding-left: 50px;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+/* .project :nth-last-child(1) {
+  background: url(../recources/Glass.png);
+} */

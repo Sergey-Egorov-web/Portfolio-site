@@ -116,24 +116,30 @@ h2 {
   color: #ffffff;
 }
 .project {
+  position: relative;
   width: 1150px;
   height: 550px;
   border-radius: 30px;
-  background-image: url(../recources/Realhome.png), url(../recources/Glass.png),
-    url(../recources/Fesiyen.png);
+  /* background-image: url(../recources/Realhome.png), url(../recources/Glass.png),
+    url(../recources/Fesiyen.png);*/
 }
 
 h3 {
+  position: absolute;
+  top: 410px;
+  left: 50px;
   font-size: 35px;
   line-height: 46px;
   letter-spacing: -0.03em;
   color: #ffffff;
-  padding-top: 410px;
+  /* padding-top: 410px;
   padding-left: 50px;
-  margin-bottom: 5px;
+  margin-bottom: 5px; */
 }
 .text-project {
-  padding-left: 50px;
+  position: absolute;
+  top: 461px;
+  left: 50px;
   font-size: 30px;
   line-height: 39px;
   letter-spacing: -0.03em;
@@ -141,4 +147,77 @@ h3 {
 }
 /* .project :nth-last-child(1) {
   background: url(../recources/Glass.png);
+} */
+.button-services {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 582px;
+  height: 153px;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  padding-top: 56px;
+  padding-bottom: 58px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  color: #000;
+  background-color: #1bff07;
+}
+.my-competencies {
+  margin-bottom: 150px;
+}
+.competencies {
+  position: relative;
+  width: 1048px;
+  height: 234px;
+  margin-bottom: 60px;
+}
+
+.icon {
+  width: 45px;
+  height: 44px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  /* background-color: #1bff07; */
+}
+
+h4 {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
+
+  color: #1bff07;
+}
+.text-competencies {
+  width: 778px;
+  height: 116px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+/* .competencies:before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  top: -35px;
+  left: -4px;
+  background-image: url("../recources/html.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 } */

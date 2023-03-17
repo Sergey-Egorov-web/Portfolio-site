@@ -17,6 +17,9 @@ body {
   height: 765px;
   margin: 0 auto;
   background: url(../recources/My\ photo.png);
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  background-size: cover;
 }
 .nav-section {
   width: 1200px;
@@ -208,16 +211,89 @@ h4 {
 
   color: #ffffff;
 }
-/* .competencies:before {
-  position: absolute;
-  display: block;
-  content: "";
-  width: 24px;
-  height: 24px;
-  top: -35px;
-  left: -4px;
-  background-image: url("../recources/html.png");
-  background-size: cover;
+.service {
+  width: 1150px;
+  height: 483px;
+  margin-top: 74px;
+}
+.image-service {
+  border-radius: 30px;
+}
+.text-service {
+  width: 1150px;
+  height: 283px;
+  background-color: #191c19;
+  border-radius: 30px;
+}
+h5 {
+  padding-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  font-size: 55px;
+  line-height: 72px;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+  color: #1bff07;
+}
+.text-text-service {
+  width: 749px;
+  height: 116px;
+  margin-left: 40px;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+.service:nth-last-child(1) {
+  margin-top: 137px;
+}
+.contacts {
+  width: 1400px;
+  height: 717px;
+  margin: 150px auto 150px auto;
+  background: #191c19;
+  border-radius: 30px;
+  background-image: url(../recources/background-contacts\ half.png);
   background-repeat: no-repeat;
-  background-position: 50%;
-} */
+  background-position: right;
+}
+h6 {
+  padding-top: 320px;
+  margin-left: 125px;
+  margin-bottom: 28px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 60px;
+  /* identical to box height, or 171% */
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.inctagram-link {
+  margin-left: 125px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  /* identical to box height, or 100% */
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.telegram-link {
+  margin-left: 125px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.mail-link {
+  margin-left: 125px;
+  /* margin-bottom: 20px; */
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}

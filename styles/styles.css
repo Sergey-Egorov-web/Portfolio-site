@@ -20,65 +20,33 @@ body {
   background-size: cover;
 }
 .nav-section {
+  position: relative;
   width: 1200px;
-  height: 55px;
-  /* padding-top: 17px; */
   margin: 0 auto 0 auto;
 }
-.nav-container {
-  display: inline;
-  margin: 0 auto;
-}
-.logo {
-  display: inline-block;
-  width: 130px;
-  height: 39px;
-  margin-top: 36px;
-  margin-right: 520px;
+.logo-link {
+  position: absolute;
+  /* display: inline-block; */
+  width: 150px;
+  height: 42px;
+  top: 36px;
+  left: 7px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: -0.11em;
+  text-transform: uppercase;
+  color: #1bff07;
   background-color: #000;
   border-radius: 100px;
 }
-/* .logo-link {
-  width: 109px;
-  height: 55px;
-  /* margin-top: 15px; 
-  margin-left: 9px;
-  font-weight: 700;
-  font-size: 42.4138px;
-  line-height: 55px;
-  text-align: center;
-  letter-spacing: -0.11em;
-  text-transform: uppercase;
-  color: #1bff07;
-} */
-
-.logo-link {
-  display: inline-block;
-  /* width: 109px; */
-  /* height: 55px; */
-  padding-left: 10px;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 55px;
-  text-align: center;
-  letter-spacing: -0.11em;
-  text-transform: uppercase;
-  color: #1bff07;
+.nav-container {
+  /* display: inline; */
+  margin: 0 auto;
+  padding-top: 33px;
+  margin-left: 650px;
 }
-/* .text-logo {
-  width: 109px;
-  height: 55px;
-  margin-top: -9px;
-  margin-left: 9px;
-  font-weight: 700;
-  font-size: 42.4138px;
-  line-height: 55px;
-  text-align: center;
-  vertical-align: auto;
-  letter-spacing: -0.11em;
-  text-transform: uppercase;
-  color: #1bff07;
-} */
 .nav {
   display: inline;
   margin-top: 6px;
@@ -145,7 +113,7 @@ h2 {
   border-radius: 30px;
 }
 
-h3 {
+.project-head {
   position: absolute;
   top: 410px;
   left: 50px;
@@ -202,6 +170,10 @@ h3 {
 }
 h2.head-competencies {
   margin-bottom: 48px;
+  color: #ffffff;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
 }
 
 .icon {
@@ -211,7 +183,7 @@ h2.head-competencies {
   margin-bottom: 16px;
   /* background-color: #1bff07; */
 }
-h4 {
+.head-competencies {
   margin-bottom: 15px;
   font-size: 35px;
   line-height: 46px;
@@ -219,7 +191,10 @@ h4 {
   letter-spacing: -0.03em;
   color: #1bff07;
 }
-h4.head-services {
+h2.head-services {
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
   color: #ffffff;
 }
 .text-competencies {
@@ -237,13 +212,13 @@ h4.head-services {
 .image-service {
   border-radius: 30px;
 }
-.text-service {
+.information-service {
   width: 1150px;
   height: 283px;
   background-color: #191c19;
   border-radius: 30px;
 }
-h5 {
+.head-service {
   padding-top: 40px;
   margin-left: 40px;
   margin-bottom: 15px;
@@ -253,7 +228,7 @@ h5 {
   letter-spacing: -0.03em;
   color: #1bff07;
 }
-.text-text-service {
+.text-service {
   width: 749px;
   height: 116px;
   margin-left: 40px;
@@ -278,13 +253,12 @@ h5 {
   background-size: contain;
   background-position: right;
 }
-h6 {
+h2.head-contacts {
   padding-top: 320px;
   margin-left: 125px;
   margin-bottom: 28px;
   font-size: 35px;
   line-height: 60px;
-  /* identical to box height, or 171% */
   letter-spacing: -0.03em;
   color: #ffffff;
 }
@@ -317,7 +291,7 @@ footer {
   margin: 0 auto;
 }
 .portfolio {
-  width: 512px;
+  width: 542px;
   height: 30px;
   padding-top: 76px;
   margin-left: 125px;

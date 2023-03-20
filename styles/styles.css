@@ -1,4 +1,4 @@
-html {
+tml {
   scroll-behavior: smooth;
 }
 body {
@@ -9,7 +9,7 @@ body {
   font-style: normal;
   font-weight: 400;
 }
-.about-me {
+header {
   width: 100%;
   min-width: 1400px;
   height: 765px;
@@ -23,10 +23,10 @@ body {
   position: relative;
   width: 1200px;
   margin: 0 auto 0 auto;
+  padding-top: 33px;
 }
 .logo-link {
   position: absolute;
-  /* display: inline-block; */
   width: 150px;
   height: 42px;
   top: 36px;
@@ -41,18 +41,10 @@ body {
   background-color: #000;
   border-radius: 100px;
 }
-.nav-container {
-  /* display: inline; */
-  margin: 0 auto;
-  padding-top: 33px;
-  margin-left: 650px;
-}
-.nav {
+nav {
   display: inline;
-  margin-top: 6px;
-  width: 420px;
-  height: 23px;
-  vertical-align: baseline;
+  margin: 0 auto;
+  margin-left: 650px;
 }
 .nav-link {
   margin-right: 50px;
@@ -67,7 +59,6 @@ body {
 }
 .nav-link:hover {
   color: #1bff07;
-  /* opacity: 0.5; */
 }
 .text-about-me {
   width: 1400px;
@@ -131,9 +122,6 @@ h2 {
   letter-spacing: -0.03em;
   color: #ffffff;
 }
-/* .project :nth-last-child(1) {
-  background: url(../recources/Glass.png);
-} */
 .button-services {
   display: block;
   box-sizing: border-box;
@@ -162,18 +150,12 @@ h2 {
   margin-bottom: 150px;
 }
 .competencies {
-  /* position: relative; */
   width: 788px;
   height: auto;
-  /* height: 234px; */
   margin-bottom: 60px;
 }
 h2.head-competencies {
   margin-bottom: 48px;
-  color: #ffffff;
-  font-size: 55px;
-  line-height: 72px;
-  letter-spacing: -0.03em;
 }
 
 .icon {
@@ -181,23 +163,19 @@ h2.head-competencies {
   height: 44px;
   border-radius: 10px;
   margin-bottom: 16px;
-  /* background-color: #1bff07; */
 }
-.head-competencies {
+.head-skill {
   margin-bottom: 15px;
   font-size: 35px;
   line-height: 46px;
-  /* identical to box height */
   letter-spacing: -0.03em;
   color: #1bff07;
 }
 h2.head-services {
   font-size: 35px;
   line-height: 46px;
-  letter-spacing: -0.03em;
-  color: #ffffff;
 }
-.text-competencies {
+.about-skill {
   width: 778px;
   font-size: 22px;
   line-height: 29px;
@@ -224,12 +202,11 @@ h2.head-services {
   margin-bottom: 15px;
   font-size: 55px;
   line-height: 72px;
-  /* identical to box height */
   letter-spacing: -0.03em;
   color: #1bff07;
 }
-.text-service {
-  width: 749px;
+.about-service {
+  width: 770px;
   height: 116px;
   margin-left: 40px;
   font-size: 22px;
@@ -241,11 +218,9 @@ h2.head-services {
   margin-top: 137px;
 }
 .contacts {
-  /* width: 100%; */
-  /* min-width: 1400px; */
   width: 1400px;
   height: 717px;
-  margin: 150px auto 150px auto;
+  margin: 150px auto;
   background: #191c19;
   border-radius: 30px;
   background-image: url(../recources/background-contacts\ half.png);
@@ -259,15 +234,12 @@ h2.head-contacts {
   margin-bottom: 28px;
   font-size: 35px;
   line-height: 60px;
-  letter-spacing: -0.03em;
-  color: #ffffff;
 }
 .contacts-link {
   margin-left: 125px;
   margin-top: 20px;
   font-size: 60px;
   line-height: 80px;
-  /* identical to box height, or 100% */
   letter-spacing: -0.03em;
   color: #ffffff;
 }

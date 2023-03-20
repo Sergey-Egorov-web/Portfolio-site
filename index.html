@@ -19,18 +19,17 @@
     <title>Egorov Sergey frontend developer</title>
   </head>
   <body>
-    <section class="about-me">
-      <header class="nav-section">
+    <header>
+      <!-- <section class="about-me"> -->
+      <div class="nav-section">
         <a class="logo-link" href="#about-me">egorov </a>
-        <div class="nav-container">
-          <div class="nav">
-            <a href="#portfolio" class="nav-link">портфолио</a>
-            <a href="#competencies" class="nav-link">компетенции</a>
-            <a href="#services" class="nav-link">услуги</a>
-            <a href="#contacts" class="nav-link">контакты</a>
-          </div>
-        </div>
-      </header>
+        <nav>
+          <a href="#portfolio" class="nav-link">портфолио</a>
+          <a href="#competencies" class="nav-link">компетенции</a>
+          <a href="#services" class="nav-link">услуги</a>
+          <a href="#contacts" class="nav-link">контакты</a>
+        </nav>
+      </div>
       <div class="text-about-me">
         <p class="introduction">
           Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
@@ -40,7 +39,8 @@
           Привет, я Сергей — фронтенд разработчик и дизайнер сайтов
         </h1>
       </div>
-    </section>
+      <!-- </section> -->
+    </header>
     <main id="portfolio">
       <h2>Самые свежие проекты</h2>
       <div class="project">
@@ -65,8 +65,8 @@
           <div class="icon">
             <img src="recources/html.png" alt="icon html" />
           </div>
-          <p class="head-competencies">HTML и CSS</p>
-          <p class="text-competencies">
+          <p class="head-skill">HTML и CSS</p>
+          <p class="about-skill">
             это основа фронтенд разработки. Умение создавать и правильно
             структурировать HTML-документы, а также применять стили к этим
             документам на CSS, является обязательным навыком для каждого
@@ -77,8 +77,8 @@
           <div class="icon">
             <img src="recources/js.png" alt="icon js" />
           </div>
-          <p class="head-competencies">JavaScript</p>
-          <p class="text-competencies">
+          <p class="head-skill">JavaScript</p>
+          <p class="about-skill">
             это язык программирования, который используется для создания
             динамического и интерактивного пользовательского интерфейса. Хороший
             фронтенд разработчик должен быть знаком с основами JavaScript,
@@ -90,8 +90,8 @@
           <div class="icon">
             <img src="recources/lib.png" alt="icon library" />
           </div>
-          <p class="head-competencies">Работа с библиотеками и фреймворками</p>
-          <p class="text-competencies">
+          <p class="head-skill">Работа с библиотеками и фреймворками</p>
+          <p class="about-skill">
             фронтенд разработчики должны быть знакомы с различными библиотеками
             и фреймворками, такими как React, Angular, Vue и другими. Умение
             использовать готовые решения, адаптировать их под нужды проекта и
@@ -102,11 +102,11 @@
           <div class="icon">
             <img src="recources/mobile.png" alt="icon mobile" />
           </div>
-          <p class="head-competencies">
+          <p class="head-skill">
             Разработка для мобильных <br />
             устройств и адаптивная верстка
           </p>
-          <p class="text-competencies">
+          <p class="about-skill">
             фронтенд разработчики должны быть знакомы с различными библиотеками
             и фреймворками, такими как React, Angular, Vue и другими. Умение
             использовать готовые решения, адаптировать их под нужды проекта и
@@ -127,12 +127,11 @@
           />
           <div class="information-service">
             <p class="head-service">Разработка сайта под ключ</p>
-            <!-- <p class="head-text-service">Разработка сайта под ключ</p> -->
-            <p class="text-service">
-              Это создание дизайн веб-сайтов, созданный для удобства
-              пользователя и решения бизнес-задач Сайты должны быть понятными и
-              удобными, ведь чем понятнее сайт, тем быстрее пользователь
-              совершит целевое действие
+            <p class="about-service">
+              Это создание дизайна и проектирование веб-сайта, продуманного для
+              удобства пользователя и решения бизнес-задач. Сайты должны быть
+              понятными и удобными, ведь чем понятнее сайт, тем быстрее
+              пользователь совершит целевое действие
             </p>
           </div>
         </div>
@@ -145,7 +144,7 @@
           <div class="information-service">
             <p class="head-service">Верстка сайтов</p>
             <!-- <p class="head-text-service">Разработка сайта под ключ</p> -->
-            <p class="text-service">
+            <p class="about-service">
               Это процесс создания HTML-документов и применения к ним стилей на
               CSS. Фронтенд разработчик может помочь создать привлекательный и
               удобный интерфейс для вашего сайта
@@ -161,7 +160,7 @@
           <div class="information-service">
             <p class="head-service">Разработка мобильного интерфейса</p>
             <!-- <p class="head-text-service">Разработка сайта под ключ</p> -->
-            <p class="text-service">
+            <p class="about-service">
               Это процесс создания интерактивных элементов на странице с помощью
               JavaScript. Фронтенд разработчик может помочь создать динамический
               и удобный пользовательский интерфейс для вашего сайта или

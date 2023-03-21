@@ -1,4 +1,4 @@
-tml {
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -84,7 +84,7 @@ h1 {
   letter-spacing: -0.03em;
   color: #1bff07;
 }
-main {
+.main-part {
   width: 1150px;
   margin: 0 auto;
   font-weight: 400;
@@ -102,6 +102,12 @@ h2 {
   width: 1150px;
   height: 550px;
   border-radius: 30px;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+.project:hover {
+  opacity: 1;
 }
 
 .project-head {
@@ -121,6 +127,16 @@ h2 {
   line-height: 39px;
   letter-spacing: -0.03em;
   color: #ffffff;
+}
+.project-img {
+  border-radius: 30px;
+  object-fit: cover;
+}
+.project-head:hover {
+  color: #1bff07;
+}
+.text-project:hover {
+  color: #1bff07;
 }
 .button-services {
   display: block;
@@ -262,7 +278,7 @@ footer {
   height: 289px;
   margin: 0 auto;
 }
-.portfolio {
+.Egorov {
   width: 542px;
   height: 30px;
   padding-top: 76px;

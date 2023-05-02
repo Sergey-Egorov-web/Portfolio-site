@@ -1,88 +1,22 @@
+@import url(header.css);
+@import url(about-me.css);
+
 html {
   scroll-behavior: smooth;
+}
+a,
+p,
+h1,
+h2 {
+  font-family: IBM Plex Mono, Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.03em;
 }
 body {
   width: 100%;
   margin: 0 auto;
   background-color: #000;
-  font-family: IBM Plex Mono, Courier, monospace;
-  font-style: normal;
-  font-weight: 400;
-}
-header {
-  width: 100%;
-  min-width: 1400px;
-  height: 765px;
-  margin: 0 auto;
-  background: url(../recources/My\ photo.png);
-  background-repeat: no-repeat;
-  background-position: 50% 20%;
-  background-size: cover;
-}
-.nav-section {
-  position: relative;
-  width: 1200px;
-  margin: 0 auto 0 auto;
-  padding-top: 33px;
-}
-.logo-link {
-  position: absolute;
-  width: 150px;
-  height: 42px;
-  top: 36px;
-  left: 7px;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: -0.11em;
-  text-transform: uppercase;
-  color: #1bff07;
-  background-color: #000;
-  border-radius: 100px;
-}
-nav {
-  display: inline;
-  margin: 0 auto;
-  margin-left: 650px;
-}
-.nav-link {
-  margin-right: 50px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: -0.03em;
-  color: #ffffff;
-}
-.nav-link:nth-last-child(1) {
-  margin-right: 0px;
-}
-.nav-link:hover {
-  color: #1bff07;
-}
-.text-about-me {
-  width: 1400px;
-  margin: 0 auto;
-}
-.introduction {
-  width: 430px;
-  height: 103px;
-  margin-top: 281px;
-  margin-left: 125px;
-  font-size: 20px;
-  line-height: 26px;
-  letter-spacing: -0.03em;
-  color: #ffffff;
-}
-h1 {
-  width: 919px;
-  height: 205px;
-  margin-top: 27px;
-  margin-left: 119px;
-  font-size: 80px;
-  line-height: 70px;
-  letter-spacing: -0.03em;
-  color: #1bff07;
 }
 .main-part {
   width: 1150px;
@@ -94,7 +28,6 @@ h2 {
   margin-bottom: 40px;
   font-size: 55px;
   line-height: 72px;
-  letter-spacing: -0.03em;
   color: #ffffff;
 }
 .project {
